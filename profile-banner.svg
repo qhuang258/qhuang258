@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Qiyuan Huang</title>
+  <desc id="desc">AI agents, developer infrastructure, and backend systems.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDFCF8"/>
+      <stop offset="1" stop-color="#F7F3EE"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" seed="8"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.11"/></feComponentTransfer>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="34"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#paper)"/>
+    <g filter="url(#blur)" opacity="0.82">
+      <circle cx="160" cy="70" r="150" fill="#FFB7B2">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 18 10; 0 0" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1010" cy="280" r="190" fill="#EFEDF4">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -14 -16; 0 0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="760" cy="-20" r="125" fill="#E8EFE8">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 8 14; 0 0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect width="1200" height="340" filter="url(#grain)" opacity="0.28"/>
+
+    <g fill="#292524" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="72" y="78" font-size="16" font-weight="700" letter-spacing="4">SOFTWARE ENGINEER · AI AGENTS</text>
+      <text x="68" y="188" font-size="76" font-weight="750" letter-spacing="-4">QIYUAN HUANG</text>
+      <text x="72" y="238" font-size="24" font-weight="450" fill="#57534E">Developer infrastructure · backend systems · thoughtful tools</text>
+    </g>
+
+    <g transform="translate(72 272)">
+      <rect width="314" height="42" rx="21" fill="#292524"/>
+      <circle cx="23" cy="21" r="6" fill="#FF6B50">
+        <animate attributeName="opacity" values="1;.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="41" y="27" fill="#FDFCF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">BUILDING CALM, CAPABLE SYSTEMS</text>
+    </g>
+
+    <g transform="translate(1035 52)" fill="none" stroke="#292524" stroke-width="2" opacity="0.7">
+      <circle cx="40" cy="40" r="39"/>
+      <path d="M21 41h38M40 22v38"/>
+    </g>
+  </g>
+</svg>
